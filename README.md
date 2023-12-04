@@ -1,7 +1,7 @@
 # mtb-evo-model
 This contains an attempt to model the evolution of the evolvability of *Mycobacterium tuberculosis*.
 
-# First batch of things to do: fixed parameters
+# First batch of things to do: population with fixed parameters
 1. Implement population of cells with logistic growth (equal fitness)
 2. Implement bacteria moving from one subpopulation to another at a fixed rate for each cell
 3. Implement bacteria moving between different types of subpopulations (environmental or host) with different growth parameters
@@ -19,7 +19,7 @@ This contains an attempt to model the evolution of the evolvability of *Mycobact
 11. Test population equilibria across a range of mutation and recombination rates
 12. Adjust increment/decrement values as needed
 
-# Third batch of things to do: evolvability
+# Fourth batch of things to do: evolvability
 13. Make the mutation rate dynamic, based on its own gene
 14. Make the recombination rate dynamic, based on its own gene
 15. See if these rates evolve to more optimal values based on **11**
